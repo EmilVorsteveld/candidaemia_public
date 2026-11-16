@@ -12,7 +12,7 @@
 # Usage:
 #   bash ase_haplotag.sh check ALEX1_D0     # input checks for one sample (contigs, index, phasing, read names)
 #   bash ase_haplotag.sh run ALEX1_D0       # filter VCF + haplotag + summary for one sample
-#   bash ase_haplotag.sh all 12             # all samples on one machine with GNU parallel (12 at a time)
+#   bash ase_haplotag.sh all 14             # all samples on one machine with GNU parallel (14 at a time)
 #   sbatch ase_haplotag.sh                  # or: all samples as a SLURM array (line 1 of the sheet is the header)
 #
 # Sample sheet: sample_match.txt (id <tab> matching_DNA), 36 Kinnex samples. Samples with matching_DNA = NA
@@ -41,7 +41,7 @@ case "$MODE" in
   *) set -- run "$@"; MODE=run ;;   # "bash ase_haplotag.sh ALEX1_D0" = run on that sample
 esac
 if [ "$MODE" = "all" ]; then
-  JOBS=${2:-12}
+  JOBS=${2:-14}   # whatshap haplotag is single-threaded: one core per sample
   SELF=$(realpath "$0")
   # 1) filter each patient's VCF once (D0 and D5-7 share it), 2) haplotag every sample with WGS
   awk 'NR > 1 {sub(/\r$/, ""); if ($2 != "NA" && !seen[$2]++) print $1}' "$SHEET" | parallel -j "$JOBS" "bash $SELF filter {}"
@@ -93,9 +93,11 @@ if [ "$MODE" = "check" ]; then
   exit 0
 fi
 
-# ---- Filter WGS VCF to PASS, biallelic, phased heterozygous SNVs (once per patient) ----
+# ---- Filter WGS VCF to PASS, biallelic, phased heterozygous SNVs on chr1-22 and chrX (once per patient) ----
+# The WGS reference has decoy/unplaced contigs that hg38.fa lacks; they carry no annotated genes. chrY/chrM are not useful for ASE.
+MAIN_CHR=$(echo chr{1..22} chrX | tr ' ' ',')
 if [ ! -f "$HET.tbi" ]; then
-  bcftools view -f PASS -m2 -M2 -v snps -i 'GT="het" && FMT/PS!="."' "$VCF" -Oz -o "$HET.tmp.vcf.gz"
+  bcftools view -r "$MAIN_CHR" -f PASS -m2 -M2 -v snps -i 'GT="het" && FMT/PS!="."' "$VCF" -Oz -o "$HET.tmp.vcf.gz"
   mv "$HET.tmp.vcf.gz" "$HET"
   bcftools index -t "$HET"
 fi
