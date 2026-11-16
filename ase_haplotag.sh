@@ -36,6 +36,10 @@ mkdir -p "$OUT/vcf" "$OUT/haplotag" logs
 
 # ---- All samples on one machine (GNU parallel) ----
 MODE=${1:-run}
+case "$MODE" in
+  check|filter|run|all) ;;
+  *) set -- run "$@"; MODE=run ;;   # "bash ase_haplotag.sh ALEX1_D0" = run on that sample
+esac
 if [ "$MODE" = "all" ]; then
   JOBS=${2:-12}
   SELF=$(realpath "$0")
