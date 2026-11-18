@@ -96,17 +96,31 @@ fi
 # ---- Filter WGS VCF to PASS, biallelic, phased heterozygous SNVs on chr1-22 and chrX (once per patient) ----
 # The WGS reference has decoy/unplaced contigs that hg38.fa lacks; they carry no annotated genes. chrY/chrM are not useful for ASE.
 MAIN_CHR=$(echo chr{1..22} chrX | tr ' ' ',')
+# whatshap walks every ##contig in the VCF header, so the header must also be limited to MAIN_CHR
+# (bcftools view -r drops the records but keeps the decoy contig lines). Files made before this fix are redone.
+if [ -f "$HET.tbi" ] && [ "$(bcftools view -h "$HET" | grep -c '^##contig')" -gt 23 ]; then
+  echo "-- $HET has extra contigs in its header, regenerating"
+  rm -f "$HET" "$HET.tbi"
+fi
 if [ ! -f "$HET.tbi" ]; then
   bcftools view -r "$MAIN_CHR" -f PASS -m2 -M2 -v snps -i 'GT="het" && FMT/PS!="."' "$VCF" -Oz -o "$HET.tmp.vcf.gz"
-  mv "$HET.tmp.vcf.gz" "$HET"
+  bcftools view -h "$HET.tmp.vcf.gz" |
+    awk -v keep="$MAIN_CHR" 'BEGIN {n = split(keep, k, ","); for (i = 1; i <= n; i++) K[k[i]] = 1}
+      /^##contig=<ID=/ {id = $0; sub(/^##contig=<ID=/, "", id); sub(/[,>].*/, "", id); if (!(id in K)) next}
+      {print}' > "$HET.hdr"
+  bcftools reheader -h "$HET.hdr" -o "$HET" "$HET.tmp.vcf.gz"
+  rm -f "$HET.tmp.vcf.gz" "$HET.hdr"
   bcftools index -t "$HET"
 fi
 echo "-- Phased het SNVs: $(bcftools view -H "$HET" | wc -l)"
 [ "$MODE" = "filter" ] && exit 0
 
 # ---- Haplotag ----
+# --no-reference: assign alleles by the base at each SNP. With --reference, whatshap realigns a window around
+# each SNP, which on spliced Kinnex reads left one allele's reads untagged at many genes (CXXC1 in POLY8_D0:
+# 474 ref reads tagged H1, 466 alt reads untagged), creating false monoallelic expression.
 whatshap haplotag \
-  --reference "$REF" \
+  --no-reference \
   --ignore-read-groups --sample "$SAMPLE" \
   --skip-missing-contigs \
   --output-haplotag-list "$OUT/haplotag/$RNA.haplotag.tsv.gz" \
