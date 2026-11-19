@@ -1,10 +1,18 @@
 snapshotDirectory "T:/PIgroup Alexander Hoischen/Emil/candidemia/igv_screenshots"
-maxPanelHeight 350
+maxPanelHeight 250
+preference SAM.DOWNSAMPLE_READS true
+preference SAM.MAX_LEVELS 20
+preference ALIGNMENT_TRACK_HEIGHT 200
+preference SAM.SHOW_JUNCTION_TRACK false
+preference SAM.MAX_VISIBLE_RANGE 250
 new
 genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D0/20260819/ALEX1_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D5-7/20260819/ALEX1_D5-7.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02812/20260929/DNA26-02812.bam"
+setTrackHeight 200 ALEX1_D0.bam
+setTrackHeight 200 ALEX1_D5-7.bam
+setTrackHeight 200 DNA26-02812.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_ALEX1_gene.png
@@ -13,6 +21,14 @@ region chr7 2917371 2917371
 sort base chr7:2917371
 squish
 snapshot CARD11_ALEX1_zoom_chr7_2917371.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D0/20260819/ALEX1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D5-7/20260819/ALEX1_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02812/20260929/DNA26-02812.bam"
+setTrackHeight 200 ALEX1_D0.bam
+setTrackHeight 200 ALEX1_D5-7.bam
+setTrackHeight 200 DNA26-02812.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_ALEX1_gene.png
@@ -21,6 +37,14 @@ region chr1 64844806 64844806
 sort base chr1:64844806
 squish
 snapshot JAK1_ALEX1_zoom_chr1_64844806.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D0/20260819/ALEX1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D5-7/20260819/ALEX1_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02812/20260929/DNA26-02812.bam"
+setTrackHeight 200 ALEX1_D0.bam
+setTrackHeight 200 ALEX1_D5-7.bam
+setTrackHeight 200 DNA26-02812.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_ALEX1_gene.png
@@ -29,6 +53,14 @@ region chr1 9716281 9716281
 sort base chr1:9716281
 squish
 snapshot PIK3CD_ALEX1_zoom_chr1_9716281.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D0/20260819/ALEX1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D5-7/20260819/ALEX1_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02812/20260929/DNA26-02812.bam"
+setTrackHeight 200 ALEX1_D0.bam
+setTrackHeight 200 ALEX1_D5-7.bam
+setTrackHeight 200 DNA26-02812.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_ALEX1_gene.png
@@ -37,6 +69,14 @@ region chr16 81958259 81958259
 sort base chr16:81958259
 squish
 snapshot PLCG2_ALEX1_zoom_chr16_81958259.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D0/20260819/ALEX1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D5-7/20260819/ALEX1_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02812/20260929/DNA26-02812.bam"
+setTrackHeight 200 ALEX1_D0.bam
+setTrackHeight 200 ALEX1_D5-7.bam
+setTrackHeight 200 DNA26-02812.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_ALEX1_gene.png
@@ -45,6 +85,14 @@ region chr2 190972859 190972859
 sort base chr2:190972859
 squish
 snapshot STAT1_ALEX1_zoom_chr2_190972859.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D0/20260819/ALEX1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D5-7/20260819/ALEX1_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02812/20260929/DNA26-02812.bam"
+setTrackHeight 200 ALEX1_D0.bam
+setTrackHeight 200 ALEX1_D5-7.bam
+setTrackHeight 200 DNA26-02812.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_ALEX1_gene.png
@@ -57,6 +105,8 @@ new
 genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX2_D0/20260819/ALEX2_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02814/20260929/DNA26-02814.bam"
+setTrackHeight 200 ALEX2_D0.bam
+setTrackHeight 200 DNA26-02814.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_ALEX2_gene.png
@@ -65,6 +115,12 @@ region chr7 2917371 2917371
 sort base chr7:2917371
 squish
 snapshot CARD11_ALEX2_zoom_chr7_2917371.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX2_D0/20260819/ALEX2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02814/20260929/DNA26-02814.bam"
+setTrackHeight 200 ALEX2_D0.bam
+setTrackHeight 200 DNA26-02814.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_ALEX2_gene.png
@@ -73,6 +129,12 @@ region chr1 64844806 64844806
 sort base chr1:64844806
 squish
 snapshot JAK1_ALEX2_zoom_chr1_64844806.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX2_D0/20260819/ALEX2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02814/20260929/DNA26-02814.bam"
+setTrackHeight 200 ALEX2_D0.bam
+setTrackHeight 200 DNA26-02814.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_ALEX2_gene.png
@@ -81,6 +143,12 @@ region chr1 9727782 9727782
 sort base chr1:9727782
 squish
 snapshot PIK3CD_ALEX2_zoom_chr1_9727782.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX2_D0/20260819/ALEX2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02814/20260929/DNA26-02814.bam"
+setTrackHeight 200 ALEX2_D0.bam
+setTrackHeight 200 DNA26-02814.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_ALEX2_gene.png
@@ -89,6 +157,12 @@ region chr16 81937798 81937798
 sort base chr16:81937798
 squish
 snapshot PLCG2_ALEX2_zoom_chr16_81937798.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX2_D0/20260819/ALEX2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02814/20260929/DNA26-02814.bam"
+setTrackHeight 200 ALEX2_D0.bam
+setTrackHeight 200 DNA26-02814.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_ALEX2_gene.png
@@ -97,6 +171,12 @@ region chr2 190970549 190970549
 sort base chr2:190970549
 squish
 snapshot STAT1_ALEX2_zoom_chr2_190970549.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX2_D0/20260819/ALEX2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02814/20260929/DNA26-02814.bam"
+setTrackHeight 200 ALEX2_D0.bam
+setTrackHeight 200 DNA26-02814.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_ALEX2_gene.png
@@ -110,6 +190,9 @@ genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D0/20260819/ASKL4_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D5-7/20260819/ASKL4_D5-7.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02782/20260929/DNA26-02782.bam"
+setTrackHeight 200 ASKL4_D0.bam
+setTrackHeight 200 ASKL4_D5-7.bam
+setTrackHeight 200 DNA26-02782.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_ASKL4_gene.png
@@ -118,6 +201,14 @@ region chr7 2906827 2906827
 sort base chr7:2906827
 squish
 snapshot CARD11_ASKL4_zoom_chr7_2906827.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D0/20260819/ASKL4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D5-7/20260819/ASKL4_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02782/20260929/DNA26-02782.bam"
+setTrackHeight 200 ASKL4_D0.bam
+setTrackHeight 200 ASKL4_D5-7.bam
+setTrackHeight 200 DNA26-02782.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_ASKL4_gene.png
@@ -126,6 +217,14 @@ region chr1 64833405 64833405
 sort base chr1:64833405
 squish
 snapshot JAK1_ASKL4_zoom_chr1_64833405.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D0/20260819/ASKL4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D5-7/20260819/ASKL4_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02782/20260929/DNA26-02782.bam"
+setTrackHeight 200 ASKL4_D0.bam
+setTrackHeight 200 ASKL4_D5-7.bam
+setTrackHeight 200 DNA26-02782.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_ASKL4_gene.png
@@ -134,6 +233,14 @@ region chr1 9727782 9727782
 sort base chr1:9727782
 squish
 snapshot PIK3CD_ASKL4_zoom_chr1_9727782.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D0/20260819/ASKL4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D5-7/20260819/ASKL4_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02782/20260929/DNA26-02782.bam"
+setTrackHeight 200 ASKL4_D0.bam
+setTrackHeight 200 ASKL4_D5-7.bam
+setTrackHeight 200 DNA26-02782.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_ASKL4_gene.png
@@ -142,6 +249,14 @@ region chr16 81854547 81854547
 sort base chr16:81854547
 squish
 snapshot PLCG2_ASKL4_zoom_chr16_81854547.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D0/20260819/ASKL4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D5-7/20260819/ASKL4_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02782/20260929/DNA26-02782.bam"
+setTrackHeight 200 ASKL4_D0.bam
+setTrackHeight 200 ASKL4_D5-7.bam
+setTrackHeight 200 DNA26-02782.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_ASKL4_gene.png
@@ -150,6 +265,14 @@ region chr2 190964627 190964627
 sort base chr2:190964627
 squish
 snapshot STAT1_ASKL4_zoom_chr2_190964627.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D0/20260819/ASKL4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D5-7/20260819/ASKL4_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02782/20260929/DNA26-02782.bam"
+setTrackHeight 200 ASKL4_D0.bam
+setTrackHeight 200 ASKL4_D5-7.bam
+setTrackHeight 200 DNA26-02782.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_ASKL4_gene.png
@@ -163,6 +286,9 @@ genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/GENN2_D0/20260819/GENN2_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/GENN2_D5-7/20260819/GENN2_D5-7.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02811/20260929/DNA26-02811.bam"
+setTrackHeight 200 GENN2_D0.bam
+setTrackHeight 200 GENN2_D5-7.bam
+setTrackHeight 200 DNA26-02811.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_GENN2_gene.png
@@ -171,6 +297,14 @@ region chr7 2917371 2917371
 sort base chr7:2917371
 squish
 snapshot CARD11_GENN2_zoom_chr7_2917371.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/GENN2_D0/20260819/GENN2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/GENN2_D5-7/20260819/GENN2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02811/20260929/DNA26-02811.bam"
+setTrackHeight 200 GENN2_D0.bam
+setTrackHeight 200 GENN2_D5-7.bam
+setTrackHeight 200 DNA26-02811.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_GENN2_gene.png
@@ -179,6 +313,14 @@ region chr1 64844806 64844806
 sort base chr1:64844806
 squish
 snapshot JAK1_GENN2_zoom_chr1_64844806.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/GENN2_D0/20260819/GENN2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/GENN2_D5-7/20260819/GENN2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02811/20260929/DNA26-02811.bam"
+setTrackHeight 200 GENN2_D0.bam
+setTrackHeight 200 GENN2_D5-7.bam
+setTrackHeight 200 DNA26-02811.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_GENN2_gene.png
@@ -187,6 +329,14 @@ region chr1 9727782 9727782
 sort base chr1:9727782
 squish
 snapshot PIK3CD_GENN2_zoom_chr1_9727782.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/GENN2_D0/20260819/GENN2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/GENN2_D5-7/20260819/GENN2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02811/20260929/DNA26-02811.bam"
+setTrackHeight 200 GENN2_D0.bam
+setTrackHeight 200 GENN2_D5-7.bam
+setTrackHeight 200 DNA26-02811.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_GENN2_gene.png
@@ -195,6 +345,14 @@ region chr16 81739398 81739398
 sort base chr16:81739398
 squish
 snapshot PLCG2_GENN2_zoom_chr16_81739398.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/GENN2_D0/20260819/GENN2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/GENN2_D5-7/20260819/GENN2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02811/20260929/DNA26-02811.bam"
+setTrackHeight 200 GENN2_D0.bam
+setTrackHeight 200 GENN2_D5-7.bam
+setTrackHeight 200 DNA26-02811.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_GENN2_gene.png
@@ -208,6 +366,9 @@ genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH4_D0/20260819/HRCH4_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH4_D5-7/20260819/HRCH4_D5-7.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02806/20260929/DNA26-02806.bam"
+setTrackHeight 200 HRCH4_D0.bam
+setTrackHeight 200 HRCH4_D5-7.bam
+setTrackHeight 200 DNA26-02806.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_HRCH4_gene.png
@@ -216,6 +377,14 @@ region chr7 2917371 2917371
 sort base chr7:2917371
 squish
 snapshot CARD11_HRCH4_zoom_chr7_2917371.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH4_D0/20260819/HRCH4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH4_D5-7/20260819/HRCH4_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02806/20260929/DNA26-02806.bam"
+setTrackHeight 200 HRCH4_D0.bam
+setTrackHeight 200 HRCH4_D5-7.bam
+setTrackHeight 200 DNA26-02806.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_HRCH4_gene.png
@@ -224,6 +393,14 @@ region chr1 9727782 9727782
 sort base chr1:9727782
 squish
 snapshot PIK3CD_HRCH4_zoom_chr1_9727782.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH4_D0/20260819/HRCH4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH4_D5-7/20260819/HRCH4_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02806/20260929/DNA26-02806.bam"
+setTrackHeight 200 HRCH4_D0.bam
+setTrackHeight 200 HRCH4_D5-7.bam
+setTrackHeight 200 DNA26-02806.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_HRCH4_gene.png
@@ -232,6 +409,14 @@ region chr16 81895883 81895883
 sort base chr16:81895883
 squish
 snapshot PLCG2_HRCH4_zoom_chr16_81895883.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH4_D0/20260819/HRCH4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH4_D5-7/20260819/HRCH4_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02806/20260929/DNA26-02806.bam"
+setTrackHeight 200 HRCH4_D0.bam
+setTrackHeight 200 HRCH4_D5-7.bam
+setTrackHeight 200 DNA26-02806.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_HRCH4_gene.png
@@ -240,6 +425,14 @@ region chr2 191009941 191009941
 sort base chr2:191009941
 squish
 snapshot STAT1_HRCH4_zoom_chr2_191009941.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH4_D0/20260819/HRCH4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH4_D5-7/20260819/HRCH4_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02806/20260929/DNA26-02806.bam"
+setTrackHeight 200 HRCH4_D0.bam
+setTrackHeight 200 HRCH4_D5-7.bam
+setTrackHeight 200 DNA26-02806.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_HRCH4_gene.png
@@ -253,6 +446,9 @@ genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D0/20260819/HRCH5_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D5-7/20260819/HRCH5_D5-7.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02818/20260929/DNA26-02818.bam"
+setTrackHeight 200 HRCH5_D0.bam
+setTrackHeight 200 HRCH5_D5-7.bam
+setTrackHeight 200 DNA26-02818.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_HRCH5_gene.png
@@ -261,6 +457,14 @@ region chr7 2906827 2906827
 sort base chr7:2906827
 squish
 snapshot CARD11_HRCH5_zoom_chr7_2906827.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D0/20260819/HRCH5_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D5-7/20260819/HRCH5_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02818/20260929/DNA26-02818.bam"
+setTrackHeight 200 HRCH5_D0.bam
+setTrackHeight 200 HRCH5_D5-7.bam
+setTrackHeight 200 DNA26-02818.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_HRCH5_gene.png
@@ -269,6 +473,14 @@ region chr1 64846659 64846659
 sort base chr1:64846659
 squish
 snapshot JAK1_HRCH5_zoom_chr1_64846659.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D0/20260819/HRCH5_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D5-7/20260819/HRCH5_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02818/20260929/DNA26-02818.bam"
+setTrackHeight 200 HRCH5_D0.bam
+setTrackHeight 200 HRCH5_D5-7.bam
+setTrackHeight 200 DNA26-02818.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_HRCH5_gene.png
@@ -277,6 +489,14 @@ region chr1 9727461 9727461
 sort base chr1:9727461
 squish
 snapshot PIK3CD_HRCH5_zoom_chr1_9727461.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D0/20260819/HRCH5_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D5-7/20260819/HRCH5_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02818/20260929/DNA26-02818.bam"
+setTrackHeight 200 HRCH5_D0.bam
+setTrackHeight 200 HRCH5_D5-7.bam
+setTrackHeight 200 DNA26-02818.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_HRCH5_gene.png
@@ -285,6 +505,14 @@ region chr16 81956850 81956850
 sort base chr16:81956850
 squish
 snapshot PLCG2_HRCH5_zoom_chr16_81956850.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D0/20260819/HRCH5_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D5-7/20260819/HRCH5_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02818/20260929/DNA26-02818.bam"
+setTrackHeight 200 HRCH5_D0.bam
+setTrackHeight 200 HRCH5_D5-7.bam
+setTrackHeight 200 DNA26-02818.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_HRCH5_gene.png
@@ -293,6 +521,14 @@ region chr2 190972859 190972859
 sort base chr2:190972859
 squish
 snapshot STAT1_HRCH5_zoom_chr2_190972859.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D0/20260819/HRCH5_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D5-7/20260819/HRCH5_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02818/20260929/DNA26-02818.bam"
+setTrackHeight 200 HRCH5_D0.bam
+setTrackHeight 200 HRCH5_D5-7.bam
+setTrackHeight 200 DNA26-02818.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_HRCH5_gene.png
@@ -305,6 +541,8 @@ new
 genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN1_D0/20260819/IOAN1_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02787/20260929/DNA26-02787.bam"
+setTrackHeight 200 IOAN1_D0.bam
+setTrackHeight 200 DNA26-02787.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_IOAN1_gene.png
@@ -313,6 +551,12 @@ region chr7 2906827 2906827
 sort base chr7:2906827
 squish
 snapshot CARD11_IOAN1_zoom_chr7_2906827.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN1_D0/20260819/IOAN1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02787/20260929/DNA26-02787.bam"
+setTrackHeight 200 IOAN1_D0.bam
+setTrackHeight 200 DNA26-02787.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_IOAN1_gene.png
@@ -321,6 +565,12 @@ region chr1 64844806 64844806
 sort base chr1:64844806
 squish
 snapshot JAK1_IOAN1_zoom_chr1_64844806.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN1_D0/20260819/IOAN1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02787/20260929/DNA26-02787.bam"
+setTrackHeight 200 IOAN1_D0.bam
+setTrackHeight 200 DNA26-02787.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_IOAN1_gene.png
@@ -329,6 +579,12 @@ region chr1 9727782 9727782
 sort base chr1:9727782
 squish
 snapshot PIK3CD_IOAN1_zoom_chr1_9727782.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN1_D0/20260819/IOAN1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02787/20260929/DNA26-02787.bam"
+setTrackHeight 200 IOAN1_D0.bam
+setTrackHeight 200 DNA26-02787.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_IOAN1_gene.png
@@ -337,6 +593,12 @@ region chr16 81937798 81937798
 sort base chr16:81937798
 squish
 snapshot PLCG2_IOAN1_zoom_chr16_81937798.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN1_D0/20260819/IOAN1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02787/20260929/DNA26-02787.bam"
+setTrackHeight 200 IOAN1_D0.bam
+setTrackHeight 200 DNA26-02787.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_IOAN1_gene.png
@@ -345,6 +607,12 @@ region chr2 190966332 190966332
 sort base chr2:190966332
 squish
 snapshot STAT1_IOAN1_zoom_chr2_190966332.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN1_D0/20260819/IOAN1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02787/20260929/DNA26-02787.bam"
+setTrackHeight 200 IOAN1_D0.bam
+setTrackHeight 200 DNA26-02787.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_IOAN1_gene.png
@@ -358,6 +626,9 @@ genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D0/20260819/IOAN2_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D5-7/20260819/IOAN2_D5-7.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02808/20260929/DNA26-02808.bam"
+setTrackHeight 200 IOAN2_D0.bam
+setTrackHeight 200 IOAN2_D5-7.bam
+setTrackHeight 200 DNA26-02808.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_IOAN2_gene.png
@@ -366,6 +637,14 @@ region chr7 2906827 2906827
 sort base chr7:2906827
 squish
 snapshot CARD11_IOAN2_zoom_chr7_2906827.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D0/20260819/IOAN2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D5-7/20260819/IOAN2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02808/20260929/DNA26-02808.bam"
+setTrackHeight 200 IOAN2_D0.bam
+setTrackHeight 200 IOAN2_D5-7.bam
+setTrackHeight 200 DNA26-02808.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_IOAN2_gene.png
@@ -374,6 +653,14 @@ region chr1 64833405 64833405
 sort base chr1:64833405
 squish
 snapshot JAK1_IOAN2_zoom_chr1_64833405.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D0/20260819/IOAN2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D5-7/20260819/IOAN2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02808/20260929/DNA26-02808.bam"
+setTrackHeight 200 IOAN2_D0.bam
+setTrackHeight 200 IOAN2_D5-7.bam
+setTrackHeight 200 DNA26-02808.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_IOAN2_gene.png
@@ -382,6 +669,14 @@ region chr1 9724365 9724365
 sort base chr1:9724365
 squish
 snapshot PIK3CD_IOAN2_zoom_chr1_9724365.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D0/20260819/IOAN2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D5-7/20260819/IOAN2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02808/20260929/DNA26-02808.bam"
+setTrackHeight 200 IOAN2_D0.bam
+setTrackHeight 200 IOAN2_D5-7.bam
+setTrackHeight 200 DNA26-02808.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_IOAN2_gene.png
@@ -390,6 +685,14 @@ region chr16 81889208 81889208
 sort base chr16:81889208
 squish
 snapshot PLCG2_IOAN2_zoom_chr16_81889208.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D0/20260819/IOAN2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D5-7/20260819/IOAN2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02808/20260929/DNA26-02808.bam"
+setTrackHeight 200 IOAN2_D0.bam
+setTrackHeight 200 IOAN2_D5-7.bam
+setTrackHeight 200 DNA26-02808.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_IOAN2_gene.png
@@ -398,6 +701,14 @@ region chr2 190964686 190964686
 sort base chr2:190964686
 squish
 snapshot STAT1_IOAN2_zoom_chr2_190964686.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D0/20260819/IOAN2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D5-7/20260819/IOAN2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02808/20260929/DNA26-02808.bam"
+setTrackHeight 200 IOAN2_D0.bam
+setTrackHeight 200 IOAN2_D5-7.bam
+setTrackHeight 200 DNA26-02808.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_IOAN2_gene.png
@@ -411,6 +722,9 @@ genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D0/20260819/IPPO1_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D5-7/20260819/IPPO1_D5-7.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02796/20260929/DNA26-02796.bam"
+setTrackHeight 200 IPPO1_D0.bam
+setTrackHeight 200 IPPO1_D5-7.bam
+setTrackHeight 200 DNA26-02796.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_IPPO1_gene.png
@@ -419,6 +733,14 @@ region chr7 2906554 2906554
 sort base chr7:2906554
 squish
 snapshot CARD11_IPPO1_zoom_chr7_2906554.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D0/20260819/IPPO1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D5-7/20260819/IPPO1_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02796/20260929/DNA26-02796.bam"
+setTrackHeight 200 IPPO1_D0.bam
+setTrackHeight 200 IPPO1_D5-7.bam
+setTrackHeight 200 DNA26-02796.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_IPPO1_gene.png
@@ -427,6 +749,14 @@ region chr1 64844806 64844806
 sort base chr1:64844806
 squish
 snapshot JAK1_IPPO1_zoom_chr1_64844806.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D0/20260819/IPPO1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D5-7/20260819/IPPO1_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02796/20260929/DNA26-02796.bam"
+setTrackHeight 200 IPPO1_D0.bam
+setTrackHeight 200 IPPO1_D5-7.bam
+setTrackHeight 200 DNA26-02796.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_IPPO1_gene.png
@@ -435,6 +765,14 @@ region chr1 9727782 9727782
 sort base chr1:9727782
 squish
 snapshot PIK3CD_IPPO1_zoom_chr1_9727782.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D0/20260819/IPPO1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D5-7/20260819/IPPO1_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02796/20260929/DNA26-02796.bam"
+setTrackHeight 200 IPPO1_D0.bam
+setTrackHeight 200 IPPO1_D5-7.bam
+setTrackHeight 200 DNA26-02796.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_IPPO1_gene.png
@@ -443,6 +781,14 @@ region chr16 81937798 81937798
 sort base chr16:81937798
 squish
 snapshot PLCG2_IPPO1_zoom_chr16_81937798.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D0/20260819/IPPO1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D5-7/20260819/IPPO1_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02796/20260929/DNA26-02796.bam"
+setTrackHeight 200 IPPO1_D0.bam
+setTrackHeight 200 IPPO1_D5-7.bam
+setTrackHeight 200 DNA26-02796.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_IPPO1_gene.png
@@ -451,6 +797,14 @@ region chr2 190970549 190970549
 sort base chr2:190970549
 squish
 snapshot STAT1_IPPO1_zoom_chr2_190970549.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D0/20260819/IPPO1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D5-7/20260819/IPPO1_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02796/20260929/DNA26-02796.bam"
+setTrackHeight 200 IPPO1_D0.bam
+setTrackHeight 200 IPPO1_D5-7.bam
+setTrackHeight 200 DNA26-02796.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_IPPO1_gene.png
@@ -464,6 +818,9 @@ genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D0/20260819/IPPO3_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D5-7/20260819/IPPO3_D5-7.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02802/20260929/DNA26-02802.bam"
+setTrackHeight 200 IPPO3_D0.bam
+setTrackHeight 200 IPPO3_D5-7.bam
+setTrackHeight 200 DNA26-02802.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_IPPO3_gene.png
@@ -472,6 +829,14 @@ region chr7 2906564 2906564
 sort base chr7:2906564
 squish
 snapshot CARD11_IPPO3_zoom_chr7_2906564.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D0/20260819/IPPO3_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D5-7/20260819/IPPO3_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02802/20260929/DNA26-02802.bam"
+setTrackHeight 200 IPPO3_D0.bam
+setTrackHeight 200 IPPO3_D5-7.bam
+setTrackHeight 200 DNA26-02802.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_IPPO3_gene.png
@@ -480,6 +845,14 @@ region chr1 64844806 64844806
 sort base chr1:64844806
 squish
 snapshot JAK1_IPPO3_zoom_chr1_64844806.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D0/20260819/IPPO3_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D5-7/20260819/IPPO3_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02802/20260929/DNA26-02802.bam"
+setTrackHeight 200 IPPO3_D0.bam
+setTrackHeight 200 IPPO3_D5-7.bam
+setTrackHeight 200 DNA26-02802.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_IPPO3_gene.png
@@ -488,6 +861,14 @@ region chr1 9716281 9716281
 sort base chr1:9716281
 squish
 snapshot PIK3CD_IPPO3_zoom_chr1_9716281.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D0/20260819/IPPO3_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D5-7/20260819/IPPO3_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02802/20260929/DNA26-02802.bam"
+setTrackHeight 200 IPPO3_D0.bam
+setTrackHeight 200 IPPO3_D5-7.bam
+setTrackHeight 200 DNA26-02802.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_IPPO3_gene.png
@@ -496,6 +877,14 @@ region chr16 81937798 81937798
 sort base chr16:81937798
 squish
 snapshot PLCG2_IPPO3_zoom_chr16_81937798.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D0/20260819/IPPO3_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D5-7/20260819/IPPO3_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02802/20260929/DNA26-02802.bam"
+setTrackHeight 200 IPPO3_D0.bam
+setTrackHeight 200 IPPO3_D5-7.bam
+setTrackHeight 200 DNA26-02802.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_IPPO3_gene.png
@@ -504,6 +893,14 @@ region chr2 190964627 190964627
 sort base chr2:190964627
 squish
 snapshot STAT1_IPPO3_zoom_chr2_190964627.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D0/20260819/IPPO3_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D5-7/20260819/IPPO3_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02802/20260929/DNA26-02802.bam"
+setTrackHeight 200 IPPO3_D0.bam
+setTrackHeight 200 IPPO3_D5-7.bam
+setTrackHeight 200 DNA26-02802.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_IPPO3_gene.png
@@ -516,6 +913,8 @@ new
 genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO5_D5-7/20260819/IPPO5_D5-7.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02815/20260929/DNA26-02815.bam"
+setTrackHeight 200 IPPO5_D5-7.bam
+setTrackHeight 200 DNA26-02815.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_IPPO5_gene.png
@@ -524,6 +923,12 @@ region chr7 2906827 2906827
 sort base chr7:2906827
 squish
 snapshot CARD11_IPPO5_zoom_chr7_2906827.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO5_D5-7/20260819/IPPO5_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02815/20260929/DNA26-02815.bam"
+setTrackHeight 200 IPPO5_D5-7.bam
+setTrackHeight 200 DNA26-02815.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_IPPO5_gene.png
@@ -532,6 +937,12 @@ region chr1 64845579 64845579
 sort base chr1:64845579
 squish
 snapshot JAK1_IPPO5_zoom_chr1_64845579.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO5_D5-7/20260819/IPPO5_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02815/20260929/DNA26-02815.bam"
+setTrackHeight 200 IPPO5_D5-7.bam
+setTrackHeight 200 DNA26-02815.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_IPPO5_gene.png
@@ -540,6 +951,12 @@ region chr1 9727782 9727782
 sort base chr1:9727782
 squish
 snapshot PIK3CD_IPPO5_zoom_chr1_9727782.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO5_D5-7/20260819/IPPO5_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02815/20260929/DNA26-02815.bam"
+setTrackHeight 200 IPPO5_D5-7.bam
+setTrackHeight 200 DNA26-02815.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_IPPO5_gene.png
@@ -548,6 +965,12 @@ region chr16 81961938 81961938
 sort base chr16:81961938
 squish
 snapshot PLCG2_IPPO5_zoom_chr16_81961938.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO5_D5-7/20260819/IPPO5_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02815/20260929/DNA26-02815.bam"
+setTrackHeight 200 IPPO5_D5-7.bam
+setTrackHeight 200 DNA26-02815.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_IPPO5_gene.png
@@ -560,6 +983,8 @@ new
 genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY5_D0/20260819/POLY5_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02785/20260929/DNA26-02785.bam"
+setTrackHeight 200 POLY5_D0.bam
+setTrackHeight 200 DNA26-02785.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_POLY5_gene.png
@@ -568,6 +993,12 @@ region chr7 2917371 2917371
 sort base chr7:2917371
 squish
 snapshot CARD11_POLY5_zoom_chr7_2917371.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY5_D0/20260819/POLY5_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02785/20260929/DNA26-02785.bam"
+setTrackHeight 200 POLY5_D0.bam
+setTrackHeight 200 DNA26-02785.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_POLY5_gene.png
@@ -576,6 +1007,12 @@ region chr1 64844806 64844806
 sort base chr1:64844806
 squish
 snapshot JAK1_POLY5_zoom_chr1_64844806.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY5_D0/20260819/POLY5_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02785/20260929/DNA26-02785.bam"
+setTrackHeight 200 POLY5_D0.bam
+setTrackHeight 200 DNA26-02785.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_POLY5_gene.png
@@ -584,6 +1021,12 @@ region chr16 81958259 81958259
 sort base chr16:81958259
 squish
 snapshot PLCG2_POLY5_zoom_chr16_81958259.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY5_D0/20260819/POLY5_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02785/20260929/DNA26-02785.bam"
+setTrackHeight 200 POLY5_D0.bam
+setTrackHeight 200 DNA26-02785.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_POLY5_gene.png
@@ -596,6 +1039,8 @@ new
 genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY7_D0/20260819/POLY7_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02810/20260929/DNA26-02810.bam"
+setTrackHeight 200 POLY7_D0.bam
+setTrackHeight 200 DNA26-02810.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_POLY7_gene.png
@@ -604,6 +1049,12 @@ region chr7 2906827 2906827
 sort base chr7:2906827
 squish
 snapshot CARD11_POLY7_zoom_chr7_2906827.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY7_D0/20260819/POLY7_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02810/20260929/DNA26-02810.bam"
+setTrackHeight 200 POLY7_D0.bam
+setTrackHeight 200 DNA26-02810.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_POLY7_gene.png
@@ -612,6 +1063,12 @@ region chr1 64845579 64845579
 sort base chr1:64845579
 squish
 snapshot JAK1_POLY7_zoom_chr1_64845579.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY7_D0/20260819/POLY7_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02810/20260929/DNA26-02810.bam"
+setTrackHeight 200 POLY7_D0.bam
+setTrackHeight 200 DNA26-02810.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_POLY7_gene.png
@@ -620,6 +1077,12 @@ region chr1 9728095 9728095
 sort base chr1:9728095
 squish
 snapshot PIK3CD_POLY7_zoom_chr1_9728095.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY7_D0/20260819/POLY7_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02810/20260929/DNA26-02810.bam"
+setTrackHeight 200 POLY7_D0.bam
+setTrackHeight 200 DNA26-02810.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_POLY7_gene.png
@@ -628,6 +1091,12 @@ region chr16 81937798 81937798
 sort base chr16:81937798
 squish
 snapshot PLCG2_POLY7_zoom_chr16_81937798.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY7_D0/20260819/POLY7_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02810/20260929/DNA26-02810.bam"
+setTrackHeight 200 POLY7_D0.bam
+setTrackHeight 200 DNA26-02810.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_POLY7_gene.png
@@ -636,6 +1105,12 @@ region chr2 190972859 190972859
 sort base chr2:190972859
 squish
 snapshot STAT1_POLY7_zoom_chr2_190972859.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY7_D0/20260819/POLY7_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02810/20260929/DNA26-02810.bam"
+setTrackHeight 200 POLY7_D0.bam
+setTrackHeight 200 DNA26-02810.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_POLY7_gene.png
@@ -649,6 +1124,9 @@ genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY8_D0/20260819/POLY8_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY8_D5-7/20260819/POLY8_D5-7.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02820/20260929/DNA26-02820.bam"
+setTrackHeight 200 POLY8_D0.bam
+setTrackHeight 200 POLY8_D5-7.bam
+setTrackHeight 200 DNA26-02820.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_POLY8_gene.png
@@ -657,6 +1135,14 @@ region chr7 2906564 2906564
 sort base chr7:2906564
 squish
 snapshot CARD11_POLY8_zoom_chr7_2906564.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY8_D0/20260819/POLY8_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY8_D5-7/20260819/POLY8_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02820/20260929/DNA26-02820.bam"
+setTrackHeight 200 POLY8_D0.bam
+setTrackHeight 200 POLY8_D5-7.bam
+setTrackHeight 200 DNA26-02820.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_POLY8_gene.png
@@ -665,6 +1151,14 @@ region chr16 81895883 81895883
 sort base chr16:81895883
 squish
 snapshot PLCG2_POLY8_zoom_chr16_81895883.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY8_D0/20260819/POLY8_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY8_D5-7/20260819/POLY8_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02820/20260929/DNA26-02820.bam"
+setTrackHeight 200 POLY8_D0.bam
+setTrackHeight 200 POLY8_D5-7.bam
+setTrackHeight 200 DNA26-02820.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_POLY8_gene.png
@@ -673,6 +1167,14 @@ region chr2 190973115 190973115
 sort base chr2:190973115
 squish
 snapshot STAT1_POLY8_zoom_chr2_190973115.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY8_D0/20260819/POLY8_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY8_D5-7/20260819/POLY8_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02820/20260929/DNA26-02820.bam"
+setTrackHeight 200 POLY8_D0.bam
+setTrackHeight 200 POLY8_D5-7.bam
+setTrackHeight 200 DNA26-02820.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_POLY8_gene.png
@@ -686,6 +1188,9 @@ genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB2_D0/20260819/RADB2_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB2_D5-7/20260819/RADB2_D5-7.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02838/20260929/DNA26-02838.bam"
+setTrackHeight 200 RADB2_D0.bam
+setTrackHeight 200 RADB2_D5-7.bam
+setTrackHeight 200 DNA26-02838.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_RADB2_gene.png
@@ -694,6 +1199,14 @@ region chr7 2906827 2906827
 sort base chr7:2906827
 squish
 snapshot CARD11_RADB2_zoom_chr7_2906827.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB2_D0/20260819/RADB2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB2_D5-7/20260819/RADB2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02838/20260929/DNA26-02838.bam"
+setTrackHeight 200 RADB2_D0.bam
+setTrackHeight 200 RADB2_D5-7.bam
+setTrackHeight 200 DNA26-02838.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_RADB2_gene.png
@@ -702,6 +1215,14 @@ region chr1 9630739 9630739
 sort base chr1:9630739
 squish
 snapshot PIK3CD_RADB2_zoom_chr1_9630739.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB2_D0/20260819/RADB2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB2_D5-7/20260819/RADB2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02838/20260929/DNA26-02838.bam"
+setTrackHeight 200 RADB2_D0.bam
+setTrackHeight 200 RADB2_D5-7.bam
+setTrackHeight 200 DNA26-02838.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_RADB2_gene.png
@@ -710,6 +1231,14 @@ region chr16 81937798 81937798
 sort base chr16:81937798
 squish
 snapshot PLCG2_RADB2_zoom_chr16_81937798.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB2_D0/20260819/RADB2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB2_D5-7/20260819/RADB2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02838/20260929/DNA26-02838.bam"
+setTrackHeight 200 RADB2_D0.bam
+setTrackHeight 200 RADB2_D5-7.bam
+setTrackHeight 200 DNA26-02838.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_RADB2_gene.png
@@ -718,6 +1247,14 @@ region chr2 190970549 190970549
 sort base chr2:190970549
 squish
 snapshot STAT1_RADB2_zoom_chr2_190970549.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB2_D0/20260819/RADB2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB2_D5-7/20260819/RADB2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02838/20260929/DNA26-02838.bam"
+setTrackHeight 200 RADB2_D0.bam
+setTrackHeight 200 RADB2_D5-7.bam
+setTrackHeight 200 DNA26-02838.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_RADB2_gene.png
@@ -731,6 +1268,9 @@ genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB3_D0/20260819/RADB3_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB3_D5-7/20260819/RADB3_D5-7.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02839/20260929/DNA26-02839.bam"
+setTrackHeight 200 RADB3_D0.bam
+setTrackHeight 200 RADB3_D5-7.bam
+setTrackHeight 200 DNA26-02839.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_RADB3_gene.png
@@ -739,6 +1279,14 @@ region chr7 2906827 2906827
 sort base chr7:2906827
 squish
 snapshot CARD11_RADB3_zoom_chr7_2906827.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB3_D0/20260819/RADB3_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB3_D5-7/20260819/RADB3_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02839/20260929/DNA26-02839.bam"
+setTrackHeight 200 RADB3_D0.bam
+setTrackHeight 200 RADB3_D5-7.bam
+setTrackHeight 200 DNA26-02839.bam
 goto chr1:9628000-9731097
 collapse
 snapshot PIK3CD_RADB3_gene.png
@@ -747,6 +1295,14 @@ region chr1 9630739 9630739
 sort base chr1:9630739
 squish
 snapshot PIK3CD_RADB3_zoom_chr1_9630739.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB3_D0/20260819/RADB3_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB3_D5-7/20260819/RADB3_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02839/20260929/DNA26-02839.bam"
+setTrackHeight 200 RADB3_D0.bam
+setTrackHeight 200 RADB3_D5-7.bam
+setTrackHeight 200 DNA26-02839.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_RADB3_gene.png
@@ -755,6 +1311,14 @@ region chr2 190964686 190964686
 sort base chr2:190964686
 squish
 snapshot STAT1_RADB3_zoom_chr2_190964686.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB3_D0/20260819/RADB3_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB3_D5-7/20260819/RADB3_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02839/20260929/DNA26-02839.bam"
+setTrackHeight 200 RADB3_D0.bam
+setTrackHeight 200 RADB3_D5-7.bam
+setTrackHeight 200 DNA26-02839.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_RADB3_gene.png
@@ -767,6 +1331,8 @@ new
 genome hg38
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB4_D0/20260819/RADB4_D0.bam"
 load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02840/20260929/DNA26-02840.bam"
+setTrackHeight 200 RADB4_D0.bam
+setTrackHeight 200 DNA26-02840.bam
 goto chr7:2903386-3046622
 collapse
 snapshot CARD11_RADB4_gene.png
@@ -775,6 +1341,12 @@ region chr7 2906827 2906827
 sort base chr7:2906827
 squish
 snapshot CARD11_RADB4_zoom_chr7_2906827.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB4_D0/20260819/RADB4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02840/20260929/DNA26-02840.bam"
+setTrackHeight 200 RADB4_D0.bam
+setTrackHeight 200 DNA26-02840.bam
 goto chr1:64828551-65071541
 collapse
 snapshot JAK1_RADB4_gene.png
@@ -783,6 +1355,12 @@ region chr1 64833405 64833405
 sort base chr1:64833405
 squish
 snapshot JAK1_RADB4_zoom_chr1_64833405.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB4_D0/20260819/RADB4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02840/20260929/DNA26-02840.bam"
+setTrackHeight 200 RADB4_D0.bam
+setTrackHeight 200 DNA26-02840.bam
 goto chr16:81734538-81967158
 collapse
 snapshot PLCG2_RADB4_gene.png
@@ -791,6 +1369,12 @@ region chr16 81937798 81937798
 sort base chr16:81937798
 squish
 snapshot PLCG2_RADB4_zoom_chr16_81937798.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB4_D0/20260819/RADB4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02840/20260929/DNA26-02840.bam"
+setTrackHeight 200 RADB4_D0.bam
+setTrackHeight 200 DNA26-02840.bam
 goto chr2:190943312-191015622
 collapse
 snapshot STAT1_RADB4_gene.png
@@ -799,6 +1383,12 @@ region chr2 191009941 191009941
 sort base chr2:191009941
 squish
 snapshot STAT1_RADB4_zoom_chr2_191009941.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB4_D0/20260819/RADB4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02840/20260929/DNA26-02840.bam"
+setTrackHeight 200 RADB4_D0.bam
+setTrackHeight 200 DNA26-02840.bam
 goto chr17:42311819-42390073
 collapse
 snapshot STAT3_RADB4_gene.png
