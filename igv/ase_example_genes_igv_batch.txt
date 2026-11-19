@@ -1,0 +1,809 @@
+snapshotDirectory "T:/PIgroup Alexander Hoischen/Emil/candidemia/igv_screenshots"
+maxPanelHeight 350
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D0/20260819/ALEX1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX1_D5-7/20260819/ALEX1_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02812/20260929/DNA26-02812.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_ALEX1_gene.png
+goto chr7:2917341-2917401
+region chr7 2917371 2917371
+sort base chr7:2917371
+squish
+snapshot CARD11_ALEX1_zoom_chr7_2917371.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_ALEX1_gene.png
+goto chr1:64844776-64844836
+region chr1 64844806 64844806
+sort base chr1:64844806
+squish
+snapshot JAK1_ALEX1_zoom_chr1_64844806.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_ALEX1_gene.png
+goto chr1:9716251-9716311
+region chr1 9716281 9716281
+sort base chr1:9716281
+squish
+snapshot PIK3CD_ALEX1_zoom_chr1_9716281.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_ALEX1_gene.png
+goto chr16:81958229-81958289
+region chr16 81958259 81958259
+sort base chr16:81958259
+squish
+snapshot PLCG2_ALEX1_zoom_chr16_81958259.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_ALEX1_gene.png
+goto chr2:190972829-190972889
+region chr2 190972859 190972859
+sort base chr2:190972859
+squish
+snapshot STAT1_ALEX1_zoom_chr2_190972859.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_ALEX1_gene.png
+goto chr17:42386931-42386991
+region chr17 42386961 42386961
+sort base chr17:42386961
+squish
+snapshot STAT3_ALEX1_zoom_chr17_42386961.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ALEX2_D0/20260819/ALEX2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02814/20260929/DNA26-02814.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_ALEX2_gene.png
+goto chr7:2917341-2917401
+region chr7 2917371 2917371
+sort base chr7:2917371
+squish
+snapshot CARD11_ALEX2_zoom_chr7_2917371.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_ALEX2_gene.png
+goto chr1:64844776-64844836
+region chr1 64844806 64844806
+sort base chr1:64844806
+squish
+snapshot JAK1_ALEX2_zoom_chr1_64844806.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_ALEX2_gene.png
+goto chr1:9727752-9727812
+region chr1 9727782 9727782
+sort base chr1:9727782
+squish
+snapshot PIK3CD_ALEX2_zoom_chr1_9727782.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_ALEX2_gene.png
+goto chr16:81937768-81937828
+region chr16 81937798 81937798
+sort base chr16:81937798
+squish
+snapshot PLCG2_ALEX2_zoom_chr16_81937798.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_ALEX2_gene.png
+goto chr2:190970519-190970579
+region chr2 190970549 190970549
+sort base chr2:190970549
+squish
+snapshot STAT1_ALEX2_zoom_chr2_190970549.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_ALEX2_gene.png
+goto chr17:42330691-42330751
+region chr17 42330721 42330721
+sort base chr17:42330721
+squish
+snapshot STAT3_ALEX2_zoom_chr17_42330721.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D0/20260819/ASKL4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/ASKL4_D5-7/20260819/ASKL4_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02782/20260929/DNA26-02782.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_ASKL4_gene.png
+goto chr7:2906797-2906857
+region chr7 2906827 2906827
+sort base chr7:2906827
+squish
+snapshot CARD11_ASKL4_zoom_chr7_2906827.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_ASKL4_gene.png
+goto chr1:64833375-64833435
+region chr1 64833405 64833405
+sort base chr1:64833405
+squish
+snapshot JAK1_ASKL4_zoom_chr1_64833405.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_ASKL4_gene.png
+goto chr1:9727752-9727812
+region chr1 9727782 9727782
+sort base chr1:9727782
+squish
+snapshot PIK3CD_ASKL4_zoom_chr1_9727782.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_ASKL4_gene.png
+goto chr16:81854517-81854577
+region chr16 81854547 81854547
+sort base chr16:81854547
+squish
+snapshot PLCG2_ASKL4_zoom_chr16_81854547.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_ASKL4_gene.png
+goto chr2:190964597-190964657
+region chr2 190964627 190964627
+sort base chr2:190964627
+squish
+snapshot STAT1_ASKL4_zoom_chr2_190964627.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_ASKL4_gene.png
+goto chr17:42387777-42387837
+region chr17 42387807 42387807
+sort base chr17:42387807
+squish
+snapshot STAT3_ASKL4_zoom_chr17_42387807.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/GENN2_D0/20260819/GENN2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/GENN2_D5-7/20260819/GENN2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02811/20260929/DNA26-02811.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_GENN2_gene.png
+goto chr7:2917341-2917401
+region chr7 2917371 2917371
+sort base chr7:2917371
+squish
+snapshot CARD11_GENN2_zoom_chr7_2917371.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_GENN2_gene.png
+goto chr1:64844776-64844836
+region chr1 64844806 64844806
+sort base chr1:64844806
+squish
+snapshot JAK1_GENN2_zoom_chr1_64844806.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_GENN2_gene.png
+goto chr1:9727752-9727812
+region chr1 9727782 9727782
+sort base chr1:9727782
+squish
+snapshot PIK3CD_GENN2_zoom_chr1_9727782.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_GENN2_gene.png
+goto chr16:81739368-81739428
+region chr16 81739398 81739398
+sort base chr16:81739398
+squish
+snapshot PLCG2_GENN2_zoom_chr16_81739398.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_GENN2_gene.png
+goto chr2:190972829-190972889
+region chr2 190972859 190972859
+sort base chr2:190972859
+squish
+snapshot STAT1_GENN2_zoom_chr2_190972859.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH4_D0/20260819/HRCH4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH4_D5-7/20260819/HRCH4_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02806/20260929/DNA26-02806.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_HRCH4_gene.png
+goto chr7:2917341-2917401
+region chr7 2917371 2917371
+sort base chr7:2917371
+squish
+snapshot CARD11_HRCH4_zoom_chr7_2917371.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_HRCH4_gene.png
+goto chr1:9727752-9727812
+region chr1 9727782 9727782
+sort base chr1:9727782
+squish
+snapshot PIK3CD_HRCH4_zoom_chr1_9727782.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_HRCH4_gene.png
+goto chr16:81895853-81895913
+region chr16 81895883 81895883
+sort base chr16:81895883
+squish
+snapshot PLCG2_HRCH4_zoom_chr16_81895883.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_HRCH4_gene.png
+goto chr2:191009911-191009971
+region chr2 191009941 191009941
+sort base chr2:191009941
+squish
+snapshot STAT1_HRCH4_zoom_chr2_191009941.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_HRCH4_gene.png
+goto chr17:42314044-42314104
+region chr17 42314074 42314074
+sort base chr17:42314074
+squish
+snapshot STAT3_HRCH4_zoom_chr17_42314074.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D0/20260819/HRCH5_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/HRCH5_D5-7/20260819/HRCH5_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02818/20260929/DNA26-02818.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_HRCH5_gene.png
+goto chr7:2906797-2906857
+region chr7 2906827 2906827
+sort base chr7:2906827
+squish
+snapshot CARD11_HRCH5_zoom_chr7_2906827.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_HRCH5_gene.png
+goto chr1:64846629-64846689
+region chr1 64846659 64846659
+sort base chr1:64846659
+squish
+snapshot JAK1_HRCH5_zoom_chr1_64846659.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_HRCH5_gene.png
+goto chr1:9727431-9727491
+region chr1 9727461 9727461
+sort base chr1:9727461
+squish
+snapshot PIK3CD_HRCH5_zoom_chr1_9727461.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_HRCH5_gene.png
+goto chr16:81956820-81956880
+region chr16 81956850 81956850
+sort base chr16:81956850
+squish
+snapshot PLCG2_HRCH5_zoom_chr16_81956850.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_HRCH5_gene.png
+goto chr2:190972829-190972889
+region chr2 190972859 190972859
+sort base chr2:190972859
+squish
+snapshot STAT1_HRCH5_zoom_chr2_190972859.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_HRCH5_gene.png
+goto chr17:42313568-42313628
+region chr17 42313598 42313598
+sort base chr17:42313598
+squish
+snapshot STAT3_HRCH5_zoom_chr17_42313598.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN1_D0/20260819/IOAN1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02787/20260929/DNA26-02787.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_IOAN1_gene.png
+goto chr7:2906797-2906857
+region chr7 2906827 2906827
+sort base chr7:2906827
+squish
+snapshot CARD11_IOAN1_zoom_chr7_2906827.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_IOAN1_gene.png
+goto chr1:64844776-64844836
+region chr1 64844806 64844806
+sort base chr1:64844806
+squish
+snapshot JAK1_IOAN1_zoom_chr1_64844806.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_IOAN1_gene.png
+goto chr1:9727752-9727812
+region chr1 9727782 9727782
+sort base chr1:9727782
+squish
+snapshot PIK3CD_IOAN1_zoom_chr1_9727782.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_IOAN1_gene.png
+goto chr16:81937768-81937828
+region chr16 81937798 81937798
+sort base chr16:81937798
+squish
+snapshot PLCG2_IOAN1_zoom_chr16_81937798.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_IOAN1_gene.png
+goto chr2:190966302-190966362
+region chr2 190966332 190966332
+sort base chr2:190966332
+squish
+snapshot STAT1_IOAN1_zoom_chr2_190966332.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_IOAN1_gene.png
+goto chr17:42313568-42313628
+region chr17 42313598 42313598
+sort base chr17:42313598
+squish
+snapshot STAT3_IOAN1_zoom_chr17_42313598.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D0/20260819/IOAN2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IOAN2_D5-7/20260819/IOAN2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02808/20260929/DNA26-02808.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_IOAN2_gene.png
+goto chr7:2906797-2906857
+region chr7 2906827 2906827
+sort base chr7:2906827
+squish
+snapshot CARD11_IOAN2_zoom_chr7_2906827.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_IOAN2_gene.png
+goto chr1:64833375-64833435
+region chr1 64833405 64833405
+sort base chr1:64833405
+squish
+snapshot JAK1_IOAN2_zoom_chr1_64833405.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_IOAN2_gene.png
+goto chr1:9724335-9724395
+region chr1 9724365 9724365
+sort base chr1:9724365
+squish
+snapshot PIK3CD_IOAN2_zoom_chr1_9724365.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_IOAN2_gene.png
+goto chr16:81889178-81889238
+region chr16 81889208 81889208
+sort base chr16:81889208
+squish
+snapshot PLCG2_IOAN2_zoom_chr16_81889208.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_IOAN2_gene.png
+goto chr2:190964656-190964716
+region chr2 190964686 190964686
+sort base chr2:190964686
+squish
+snapshot STAT1_IOAN2_zoom_chr2_190964686.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_IOAN2_gene.png
+goto chr17:42329481-42329541
+region chr17 42329511 42329511
+sort base chr17:42329511
+squish
+snapshot STAT3_IOAN2_zoom_chr17_42329511.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D0/20260819/IPPO1_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO1_D5-7/20260819/IPPO1_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02796/20260929/DNA26-02796.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_IPPO1_gene.png
+goto chr7:2906524-2906584
+region chr7 2906554 2906554
+sort base chr7:2906554
+squish
+snapshot CARD11_IPPO1_zoom_chr7_2906554.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_IPPO1_gene.png
+goto chr1:64844776-64844836
+region chr1 64844806 64844806
+sort base chr1:64844806
+squish
+snapshot JAK1_IPPO1_zoom_chr1_64844806.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_IPPO1_gene.png
+goto chr1:9727752-9727812
+region chr1 9727782 9727782
+sort base chr1:9727782
+squish
+snapshot PIK3CD_IPPO1_zoom_chr1_9727782.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_IPPO1_gene.png
+goto chr16:81937768-81937828
+region chr16 81937798 81937798
+sort base chr16:81937798
+squish
+snapshot PLCG2_IPPO1_zoom_chr16_81937798.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_IPPO1_gene.png
+goto chr2:190970519-190970579
+region chr2 190970549 190970549
+sort base chr2:190970549
+squish
+snapshot STAT1_IPPO1_zoom_chr2_190970549.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_IPPO1_gene.png
+goto chr17:42313568-42313628
+region chr17 42313598 42313598
+sort base chr17:42313598
+squish
+snapshot STAT3_IPPO1_zoom_chr17_42313598.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D0/20260819/IPPO3_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO3_D5-7/20260819/IPPO3_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02802/20260929/DNA26-02802.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_IPPO3_gene.png
+goto chr7:2906534-2906594
+region chr7 2906564 2906564
+sort base chr7:2906564
+squish
+snapshot CARD11_IPPO3_zoom_chr7_2906564.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_IPPO3_gene.png
+goto chr1:64844776-64844836
+region chr1 64844806 64844806
+sort base chr1:64844806
+squish
+snapshot JAK1_IPPO3_zoom_chr1_64844806.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_IPPO3_gene.png
+goto chr1:9716251-9716311
+region chr1 9716281 9716281
+sort base chr1:9716281
+squish
+snapshot PIK3CD_IPPO3_zoom_chr1_9716281.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_IPPO3_gene.png
+goto chr16:81937768-81937828
+region chr16 81937798 81937798
+sort base chr16:81937798
+squish
+snapshot PLCG2_IPPO3_zoom_chr16_81937798.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_IPPO3_gene.png
+goto chr2:190964597-190964657
+region chr2 190964627 190964627
+sort base chr2:190964627
+squish
+snapshot STAT1_IPPO3_zoom_chr2_190964627.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_IPPO3_gene.png
+goto chr17:42329481-42329541
+region chr17 42329511 42329511
+sort base chr17:42329511
+squish
+snapshot STAT3_IPPO3_zoom_chr17_42329511.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/IPPO5_D5-7/20260819/IPPO5_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02815/20260929/DNA26-02815.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_IPPO5_gene.png
+goto chr7:2906797-2906857
+region chr7 2906827 2906827
+sort base chr7:2906827
+squish
+snapshot CARD11_IPPO5_zoom_chr7_2906827.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_IPPO5_gene.png
+goto chr1:64845549-64845609
+region chr1 64845579 64845579
+sort base chr1:64845579
+squish
+snapshot JAK1_IPPO5_zoom_chr1_64845579.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_IPPO5_gene.png
+goto chr1:9727752-9727812
+region chr1 9727782 9727782
+sort base chr1:9727782
+squish
+snapshot PIK3CD_IPPO5_zoom_chr1_9727782.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_IPPO5_gene.png
+goto chr16:81961908-81961968
+region chr16 81961938 81961938
+sort base chr16:81961938
+squish
+snapshot PLCG2_IPPO5_zoom_chr16_81961938.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_IPPO5_gene.png
+goto chr17:42387777-42387837
+region chr17 42387807 42387807
+sort base chr17:42387807
+squish
+snapshot STAT3_IPPO5_zoom_chr17_42387807.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY5_D0/20260819/POLY5_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02785/20260929/DNA26-02785.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_POLY5_gene.png
+goto chr7:2917341-2917401
+region chr7 2917371 2917371
+sort base chr7:2917371
+squish
+snapshot CARD11_POLY5_zoom_chr7_2917371.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_POLY5_gene.png
+goto chr1:64844776-64844836
+region chr1 64844806 64844806
+sort base chr1:64844806
+squish
+snapshot JAK1_POLY5_zoom_chr1_64844806.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_POLY5_gene.png
+goto chr16:81958229-81958289
+region chr16 81958259 81958259
+sort base chr16:81958259
+squish
+snapshot PLCG2_POLY5_zoom_chr16_81958259.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_POLY5_gene.png
+goto chr17:42322197-42322257
+region chr17 42322227 42322227
+sort base chr17:42322227
+squish
+snapshot STAT3_POLY5_zoom_chr17_42322227.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY7_D0/20260819/POLY7_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02810/20260929/DNA26-02810.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_POLY7_gene.png
+goto chr7:2906797-2906857
+region chr7 2906827 2906827
+sort base chr7:2906827
+squish
+snapshot CARD11_POLY7_zoom_chr7_2906827.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_POLY7_gene.png
+goto chr1:64845549-64845609
+region chr1 64845579 64845579
+sort base chr1:64845579
+squish
+snapshot JAK1_POLY7_zoom_chr1_64845579.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_POLY7_gene.png
+goto chr1:9728065-9728125
+region chr1 9728095 9728095
+sort base chr1:9728095
+squish
+snapshot PIK3CD_POLY7_zoom_chr1_9728095.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_POLY7_gene.png
+goto chr16:81937768-81937828
+region chr16 81937798 81937798
+sort base chr16:81937798
+squish
+snapshot PLCG2_POLY7_zoom_chr16_81937798.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_POLY7_gene.png
+goto chr2:190972829-190972889
+region chr2 190972859 190972859
+sort base chr2:190972859
+squish
+snapshot STAT1_POLY7_zoom_chr2_190972859.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_POLY7_gene.png
+goto chr17:42387777-42387837
+region chr17 42387807 42387807
+sort base chr17:42387807
+squish
+snapshot STAT3_POLY7_zoom_chr17_42387807.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY8_D0/20260819/POLY8_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/POLY8_D5-7/20260819/POLY8_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02820/20260929/DNA26-02820.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_POLY8_gene.png
+goto chr7:2906534-2906594
+region chr7 2906564 2906564
+sort base chr7:2906564
+squish
+snapshot CARD11_POLY8_zoom_chr7_2906564.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_POLY8_gene.png
+goto chr16:81895853-81895913
+region chr16 81895883 81895883
+sort base chr16:81895883
+squish
+snapshot PLCG2_POLY8_zoom_chr16_81895883.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_POLY8_gene.png
+goto chr2:190973085-190973145
+region chr2 190973115 190973115
+sort base chr2:190973115
+squish
+snapshot STAT1_POLY8_zoom_chr2_190973115.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_POLY8_gene.png
+goto chr17:42329481-42329541
+region chr17 42329511 42329511
+sort base chr17:42329511
+squish
+snapshot STAT3_POLY8_zoom_chr17_42329511.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB2_D0/20260819/RADB2_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB2_D5-7/20260819/RADB2_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02838/20260929/DNA26-02838.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_RADB2_gene.png
+goto chr7:2906797-2906857
+region chr7 2906827 2906827
+sort base chr7:2906827
+squish
+snapshot CARD11_RADB2_zoom_chr7_2906827.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_RADB2_gene.png
+goto chr1:9630709-9630769
+region chr1 9630739 9630739
+sort base chr1:9630739
+squish
+snapshot PIK3CD_RADB2_zoom_chr1_9630739.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_RADB2_gene.png
+goto chr16:81937768-81937828
+region chr16 81937798 81937798
+sort base chr16:81937798
+squish
+snapshot PLCG2_RADB2_zoom_chr16_81937798.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_RADB2_gene.png
+goto chr2:190970519-190970579
+region chr2 190970549 190970549
+sort base chr2:190970549
+squish
+snapshot STAT1_RADB2_zoom_chr2_190970549.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_RADB2_gene.png
+goto chr17:42387777-42387837
+region chr17 42387807 42387807
+sort base chr17:42387807
+squish
+snapshot STAT3_RADB2_zoom_chr17_42387807.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB3_D0/20260819/RADB3_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB3_D5-7/20260819/RADB3_D5-7.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02839/20260929/DNA26-02839.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_RADB3_gene.png
+goto chr7:2906797-2906857
+region chr7 2906827 2906827
+sort base chr7:2906827
+squish
+snapshot CARD11_RADB3_zoom_chr7_2906827.png
+goto chr1:9628000-9731097
+collapse
+snapshot PIK3CD_RADB3_gene.png
+goto chr1:9630709-9630769
+region chr1 9630739 9630739
+sort base chr1:9630739
+squish
+snapshot PIK3CD_RADB3_zoom_chr1_9630739.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_RADB3_gene.png
+goto chr2:190964656-190964716
+region chr2 190964686 190964686
+sort base chr2:190964686
+squish
+snapshot STAT1_RADB3_zoom_chr2_190964686.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_RADB3_gene.png
+goto chr17:42387777-42387837
+region chr17 42387807 42387807
+sort base chr17:42387807
+squish
+snapshot STAT3_RADB3_zoom_chr17_42387807.png
+new
+genome hg38
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/kinnex/raw/RADB4_D0/20260819/RADB4_D0.bam"
+load "T:/PIgroup Alexander Hoischen/Emil/candidemia/wgs/raw/DNA26-02840/20260929/DNA26-02840.bam"
+goto chr7:2903386-3046622
+collapse
+snapshot CARD11_RADB4_gene.png
+goto chr7:2906797-2906857
+region chr7 2906827 2906827
+sort base chr7:2906827
+squish
+snapshot CARD11_RADB4_zoom_chr7_2906827.png
+goto chr1:64828551-65071541
+collapse
+snapshot JAK1_RADB4_gene.png
+goto chr1:64833375-64833435
+region chr1 64833405 64833405
+sort base chr1:64833405
+squish
+snapshot JAK1_RADB4_zoom_chr1_64833405.png
+goto chr16:81734538-81967158
+collapse
+snapshot PLCG2_RADB4_gene.png
+goto chr16:81937768-81937828
+region chr16 81937798 81937798
+sort base chr16:81937798
+squish
+snapshot PLCG2_RADB4_zoom_chr16_81937798.png
+goto chr2:190943312-191015622
+collapse
+snapshot STAT1_RADB4_gene.png
+goto chr2:191009911-191009971
+region chr2 191009941 191009941
+sort base chr2:191009941
+squish
+snapshot STAT1_RADB4_zoom_chr2_191009941.png
+goto chr17:42311819-42390073
+collapse
+snapshot STAT3_RADB4_gene.png
+goto chr17:42330695-42330755
+region chr17 42330725 42330725
+sort base chr17:42330725
+squish
+snapshot STAT3_RADB4_zoom_chr17_42330725.png
